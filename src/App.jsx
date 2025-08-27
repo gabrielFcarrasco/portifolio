@@ -32,10 +32,10 @@ function App() {
           <div className="informacoes">
             <h1>Gabriel Carrasco</h1>
             <p>
-              Transformo ideias em experiências digitais que encantam, conectam e vendem. Meu objetivo é ajudar pessoas e negócios a se destacarem na internet de forma simples e poderosa.
+              Transformo ideias em experiências digitais que encantam, conectam e vendem. Meu objetivo é ajudar pessoas e negócios a se destacarem na internet de forma simples, poderosa e memorável.
             </p>
             <p>
-              Quer você seja um profissional de beleza ou uma empresa de serviços residenciais, posso criar soluções digitais que mostrem seu trabalho, aumentem sua visibilidade e facilitem o contato com clientes.
+              Quer você seja um profissional de beleza, uma empresa de serviços residenciais ou qualquer negócio que queira se destacar, eu crio soluções digitais que mostram seu trabalho, aumentam sua visibilidade e facilitam o contato com clientes, tornando cada projeto único e impactante.
             </p>
             <div className="contatos">
               <a href="https://www.linkedin.com/in/gabriel-carrasco-52710028b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
