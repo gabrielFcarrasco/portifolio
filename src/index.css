@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.apresentacao {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.apresentacao-conteudo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  gap: 50px;
+}
+
+/* Lado esquerdo: informações */
+.informacoes {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.informacoes h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #00bfa5;
+}
+
+.informacoes p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #cccccc;
+}
+
+.contatos {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.contatos a {
+  text-decoration: none;
+  color: #121212;
+  background-color: #00bfa5;
+  padding: 10px 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.contatos a:hover {
+  background-color: #00e5ff;
+  transform: scale(1.05);
+}
+
+/* Lado direito: foto */
+.foto-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foto {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.nome-foto {
+  font-size: 1.5rem;
+  color: #00bfa5;
+  text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+  .apresentacao-conteudo {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .informacoes, .foto-container {
+    flex: unset;
+    width: 100%;
+  }
+
+  .foto {
+    width: 250px;
+  }
+}
+/* ================== Seção Projetos ================== */
+.projetos {
+  background-color: #1e1e1e;
+  padding: 60px 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.projetos h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #00bfa5;
+}
+
+.projetos-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Cartões com animação */
+.projeto-card {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: transform 0.6s ease, opacity 0.6s ease, box-shadow 0.3s ease;
+}
+
+.projeto-card h3 {
+  margin-top: 0;
+  color: #00bfa5;
+}
+
+.projeto-card p {
+  color: #cccccc;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.projeto-card a {
+  text-decoration: none;
+  color: #121212;
+  background-color: #00bfa5;
+  padding: 10px 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.projeto-card a:hover {
+  background-color: #00e5ff;
+  transform: scale(1.05);
+}
+
+.projeto-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* Quando o cartão estiver visível, animação final */
+.projeto-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.projetos-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.projeto-card {
+  background-color: #2a2a2a;
+  padding: 25px;
+  border-radius: 15px;
+  width: 320px;
+  opacity: 0;
+  transform: translateY(50px) scale(0.95);
+  transition: transform 0.7s ease, opacity 0.7s ease, box-shadow 0.3s ease;
+}
+
+.projeto-card.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.projeto-card h3 {
+  margin-top: 0;
+  color: #00bfa5;
+  font-size: 1.8rem;
+}
+
+.projeto-card p {
+  color: #cccccc;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.projeto-card a {
+  text-decoration: none;
+  color: #121212;
+  background-color: #00bfa5;
+  padding: 10px 22px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.projeto-card a:hover {
+  background-color: #00e5ff;
+  transform: scale(1.1);
+}
+
+.projeto-card:hover {
+  transform: translateY(-15px) scale(1.03);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+}
+
+
