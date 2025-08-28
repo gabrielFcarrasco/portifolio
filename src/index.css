@@ -242,7 +242,7 @@ body {
   height: auto;
   object-fit: contain;
   margin-bottom: 15px;
-  border-radius: 12px; /* leve arredondamento */
+  border-radius: 20px; /* leve arredondamento */
 }
 
 .nome-foto {
