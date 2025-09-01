@@ -1,6 +1,6 @@
 import './index.css';
 import { useEffect } from 'react';
-import fotoPortifolio from "./foto-portifolio.png";
+import fotoPortifolio from "./foto-portifolio.jpg";
 
 function App() {
   useEffect(() => {
