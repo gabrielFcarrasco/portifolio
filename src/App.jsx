@@ -78,6 +78,17 @@ function App() {
             </p>
             <a href="https://bit.ly/orcamento-fernando-pintura" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
           </div>
+          {/* Projeto 3 */}
+        <div className="projeto-card">
+            <h3>Webinar Impulso Digital 2025 - Landing Page</h3>
+            <p>
+                Um evento digital que necessitava de uma página de captura de leads (inscrições) com alta conversão e um forte apelo profissional.
+            </p>
+            <p>
+                Desenvolvemos uma landing page completa, focada na experiência do usuário. Com um design moderno, animações de scroll, contador regressivo para gerar urgência e um formulário interativo com labels flutuantes, a página foi projetada para construir credibilidade e guiar o visitante diretamente para a conversão.
+            </p>
+            <a href="https://webnar-impulso-digital.vercel.app" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
+          </div>
 
         </div>
       </section>
